@@ -45,9 +45,9 @@ WARNING: All illegal access operations will be denied in a future release
 
 1 Scenarios ([32m1 passed[0m)
 3 Steps ([32m3 passed[0m)
-0m0.244s
+0m0.210s
 
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.856 sec - in com.play.bdd.runner.RunPlayTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.811 sec - in com.play.bdd.runner.RunPlayTest
 
 Results :
 
@@ -56,7 +56,7 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 3.473 s
-[INFO] Finished at: 2018-05-20T01:49:35+00:00
+[INFO] Total time: 3.734 s
+[INFO] Finished at: 2018-05-20T01:52:17+00:00
 [INFO] Final Memory: 12M/42M
 [INFO] ------------------------------------------------------------------------
