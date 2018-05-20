@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building cucumber-jvm-maven 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ cucumber-jvm-maven ---
+[INFO] Deleting /root/maven-cucumber/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ cucumber-jvm-maven ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /root/maven-cucumber/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ cucumber-jvm-maven ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ cucumber-jvm-maven ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ cucumber-jvm-maven ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /root/maven-cucumber/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ cucumber-jvm-maven ---
+[INFO] Surefire report directory: /root/maven-cucumber/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.play.bdd.runner.RunPlayTest
+Feature: First cucumber HandsOn
+  This is my first cucumber hands on
+  Badly I want to crack it
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter (file:/root/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.3/cucumber-jvm-deps-1.0.3.jar) to field java.util.TreeMap.comparator
+WARNING: Please consider reporting this to the maintainers of cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+  Scenario: About my learning              [90m# cucumber/play.feature:5[0m
+    [32mGiven [0m[32mCucumber is really easy to learn[0m [90m# PlaySteps.cucumber_is_really_easy_to_learn()[0m
+    [32mWhen [0m[32mI have to pass this hand on[0m       [90m# PlaySteps.i_have_to_pass_this_hand_on()[0m
+    [32mThen [0m[32mThis will test my cucumber skills[0m [90m# PlaySteps.this_will_test_my_cucumber_skills()[0m
+
+1 Scenarios ([32m1 passed[0m)
+3 Steps ([32m3 passed[0m)
+0m0.244s
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.856 sec - in com.play.bdd.runner.RunPlayTest
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.473 s
+[INFO] Finished at: 2018-05-20T01:49:35+00:00
+[INFO] Final Memory: 12M/42M
+[INFO] ------------------------------------------------------------------------
